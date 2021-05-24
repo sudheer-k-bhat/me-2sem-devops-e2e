@@ -47,7 +47,7 @@
   - name: Add vagrant user to docker group
     user:
       name: jenkins
-      group: root
+      groups: docker,root
   
   # - name: Add an apt signing key for Kubernetes
   #   apt_key:

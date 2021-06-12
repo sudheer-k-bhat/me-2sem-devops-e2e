@@ -1,6 +1,6 @@
 from selenium.webdriver import Chrome
 
-browser = Chrome('chromedriver')
+browser = Chrome('/usr/local/bin/chromedriver')
 browser.get('https://duckduckgo.com')
 
 search_form = browser.find_element_by_id('search_form_input_homepage')
